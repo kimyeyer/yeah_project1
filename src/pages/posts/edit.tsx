@@ -1,7 +1,12 @@
 import React from 'react'
+import Header from 'components/Header'
+import PostForm from 'components/PostForm'
 
-export default function PostEditPage() {
+export default function PostEdit() {
   return (
-    <div>edit</div>
+    <>
+      <Header/>
+      <PostForm/>
+    </>
   )
 }

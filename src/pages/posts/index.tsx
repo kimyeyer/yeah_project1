@@ -1,7 +1,14 @@
 import React from 'react'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
+import PostList from 'components/PostList'
 
-export default function PostListPage() {
+export default function PostsPage() {
   return (
-    <div>index</div>
+    <>
+      <Header/>
+      <PostList hasNavigation={false}/>
+      <Footer/>
+    </>
   )
 }
